@@ -1,0 +1,263 @@
+body {
+    background: linear-gradient(147deg, rgb(18 34 42) 9%, #040404 53%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+ul {
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover {
+    transition: all .4s ease;
+}
+
+a:active {
+    color: aqua;
+    transition: all .4s ease;
+}
+
+/* About me */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__links {
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-right: 200px;
+}
+
+.header__links h3:hover, .categories h3:hover {
+    transform: scale(1.1); 
+    transition: all .4s ease;
+    /* margin-left: 30px; */
+}
+ 
+.remove_loading {
+    display: none;
+}
+
+.loading_cover {
+    position: fixed;
+    width: 100%;
+    top: 50px;
+    left: 0;
+    height: 100%;  
+    background: linear-gradient(147deg, rgb(18 34 42) 9%, #040404 53%);
+}
+
+.main_div {
+    margin: auto;
+    margin-top: 35px;
+    padding: 30px;
+    width: 92%;
+    height: 82vh;
+    font-family: sans-serif; 
+    color: whitesmoke;
+}
+
+.navbar {
+    max-width: 110px;
+}
+
+.full_name {
+    margin: 0;
+    font-size: 40px;
+}
+
+.job_name {
+    margin-top: 8px;
+}
+
+.content_cover {
+    display: flex;
+    justify-content: space-between;
+}
+
+.categories {
+    margin-top: 50px;
+}
+
+.avatar {
+    border: 1px solid white;
+}
+
+.about_me {
+    margin-left: 30px;
+}
+
+.my_info {
+    margin: 0;
+}
+
+.education_name {
+    color: aqua;
+}
+
+
+/* Education */
+
+.education__content {
+    width: 800px !important;
+    vertical-align: text-top;
+    display: flex;
+}
+
+.education {
+    margin-left: 30px;
+    width: 950px;
+    height: 500px;
+    overflow: auto;
+}
+
+.education::-webkit-scrollbar {
+    width: .6em;
+  }
+   
+  .education::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  .education::-webkit-scrollbar-thumb {
+    background: rgba(245, 245, 245, 0.57); 
+    border-radius: 10px;
+  }
+
+  .education::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.262); 
+  }
+
+/* Skills */
+
+.content_skills {
+    width: 800px;
+}
+
+.skills_list {
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+}
+
+.skills-list__heading {
+    color: rgba(0, 255, 255, 0.771);
+
+}
+
+/* Contact */
+
+.content_contact {
+    width: 500px;
+}
+
+.content_contact__heading {
+    color: aqua;
+}
+
+.contact {
+padding-left: 20px;
+}
+
+/* Projects */
+
+.project__content_cover {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    margin-top: 0px;
+    padding: 10px, 10px, 10px, 0;
+    width: 850px;
+    height: 500px;
+    overflow: auto;
+    border-radius: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content::-webkit-scrollbar {
+    width: .6em;
+  }
+   
+  .content::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  .content::-webkit-scrollbar-thumb {
+    background: rgba(245, 245, 245, 0.57); 
+    border-radius: 10px;
+  }
+
+  .content::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.262); 
+  }
+
+.project-content__list {
+    padding: 10px, 10px, 10px, 0;
+}
+
+.project-content-list__item {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    background-color: rgba(77, 67, 67, 0.084);
+    padding: 15px;
+    padding-bottom: 0px;
+    margin-left: -25px; 
+    margin-bottom: 15px;
+    /* border-bottom: 1px solid white; */
+}
+
+.img_cover {
+    padding: 0;
+    margin: 0;
+    margin-left: -15px;
+    margin-top: -15px;
+    margin-bottom: -3.9px;
+}
+
+.project-list__img {
+    padding: 0;
+    margin: 0;
+}
+
+.content-list-item__text-container {
+    width: 500px;
+    height: 280px;
+    overflow: auto;
+}
+
+.content-list-item__text-container::-webkit-scrollbar {
+    width: .6em;
+  }
+   
+  .content-list-item__text-container::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  .content-list-item__text-container::-webkit-scrollbar-thumb {
+    background: rgba(245, 245, 245, 0.57); 
+    border-radius: 10px;
+  }
+
+  .content-list-item__text-container::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.262); 
+  }
+
+.project-info {
+
+}
+
