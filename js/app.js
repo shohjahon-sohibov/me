@@ -23,5 +23,5 @@ var letter;
   setTimeout(function() {
     let loadingContainer = document.getElementById("loading_container");
     loadingContainer.classList.add("remove_loading");
-  }, 1);
+  }, 10000);
   
