@@ -104,6 +104,25 @@ a:active {
     color: aqua;
 }
 
+.visit_btn {
+        cursor: pointer;
+        border: 1px solid #3498db;
+        background-color: transparent;
+        padding: 8px 30px;
+        /* height: 40px;
+        width: 130px; */
+        color: #3498db;
+        font-size: 1em;
+        box-shadow: 0 2px 6px rgba(255, 255, 255, 0.6);
+        margin-bottom: 10px;
+        border-radius: 5px;
+        letter-spacing: 0.1em;
+}
+
+.visit_btn:hover {
+    background-color: #333;
+    transition: .5s ease;
+}
 
 /* Education */
 
@@ -178,7 +197,7 @@ padding-left: 20px;
 .content {
     margin-top: 0px;
     padding: 10px, 10px, 10px, 0;
-    width: 850px;
+    width: 950px;
     height: 500px;
     overflow: auto;
     border-radius: 13px;
@@ -211,7 +230,8 @@ padding-left: 20px;
 .project-content-list__item {
     display: flex;
     justify-content: space-between;
-    width: 800px;
+    width: 910px;
+    height: 400px;
     background-color: rgba(77, 67, 67, 0.084);
     padding: 15px;
     padding-bottom: 0px;
@@ -235,8 +255,20 @@ padding-left: 20px;
 
 .content-list-item__text-container {
     width: 500px;
-    height: 280px;
+    height: 400px;
     overflow: auto;
+}
+
+.content-list-item__text-container span {
+    color: aqua;
+}
+
+.content-list-item__text-container p a {
+    color: rgb(0, 0, 255)
+}
+
+.content-list-item__text-container p a:hover {
+    color: rgba(0, 0, 255, 0.579)
 }
 
 .content-list-item__text-container::-webkit-scrollbar {
