@@ -22,6 +22,30 @@ a:active {
     transition: all .4s ease;
 }
 
+/*  ======  Home  ======= */
+
+.content__container__text {
+    letter-spacing: 0.1em; 
+    min-width: 10px;   
+}
+
+.content__container__list__item {
+    letter-spacing: 0.1em;
+    min-width: 700px;
+}
+
+.content__container__list {
+    margin-left: -80px;
+}
+
+.home_animation_text {
+    visibility: hidden;
+}
+
+.unhidden_home_animation {
+    visibility: visible;
+}
+
 /* About me */
 
 .header {
@@ -160,8 +184,28 @@ a:active {
 /* Skills */
 
 .content_skills {
-    width: 800px;
+    width: 950px;
+    height: 500px;
+    overflow: auto;
 }
+
+.content_skills::-webkit-scrollbar {
+    width: .6em;
+  }
+   
+  .content_skills::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  .content_skills::-webkit-scrollbar-thumb {
+    background: rgba(245, 245, 245, 0.57); 
+    border-radius: 10px;
+  }
+
+  .content_skills::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.262); 
+  }
 
 .skills_list {
     border-bottom: 1px solid white;
@@ -171,6 +215,12 @@ a:active {
 .skills-list__heading {
     color: rgba(0, 255, 255, 0.771);
 
+}
+
+.skills_list_item {
+    margin-bottom: 10px;   
+    letter-spacing: 0.1em;
+    line-height: 18px;
 }
 
 /* Contact */

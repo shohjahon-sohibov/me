@@ -1,13 +1,13 @@
 // ========= Loading ============== 
 
-var byline = document.getElementById('byline'); 
+let byline = document.getElementById('byline'); 
 let bylineText = byline.innerHTML;                    // Get the content of the H2
 let bylineArr = bylineText.split('');                 // Split content into array
 byline.innerHTML = '';                            // Empty current content
 
 
-var span;         // Create variables to create elements
-var letter;
+let span;         // Create variables to create elements
+let letter;
 
   for(let i = 0; i < bylineArr.length; i++){                  // Loop for every letter
     span = document.createElement("span");          // Create a <span> element
@@ -23,5 +23,13 @@ var letter;
   setTimeout(function() {
     let loadingContainer = document.getElementById("loading_container");
     loadingContainer.classList.add("remove_loading");
-  }, 10000);
+  }, 10000)
+  
+
+
+  
+  setTimeout(function() {
+    let byline = document.getElementById('content_home'); 
+    byline.classList.add("unhidden_home_animation");
+  }, 10050)
   
